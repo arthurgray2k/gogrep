@@ -1,0 +1,32 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Dependency directories
+vendor/
+
+# Go workspace file
+go.work
+
+# Ignore compiled executable for this project
+/gogrep
+/gogrep.exe
+
+# OS / Editor specific
+.idea/
+.vscode/
+.DS_Store
+
+# AI and Agent specific
+.claude/
+.agent/
+.spec/
